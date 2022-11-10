@@ -15,9 +15,9 @@ for (const verb of verbs) {
 function say({ subject, verb, object }) {
     // ES6 feature: Template Strings
     console.log(`${subject} ${verb} ${object}`);
-};
+}
 
 // ES6 feature: for..of
 for (let s of sentences) {
     say(s);
-};
+}
